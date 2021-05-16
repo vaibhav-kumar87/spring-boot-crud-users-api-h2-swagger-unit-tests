@@ -10,3 +10,10 @@
 	* http://localhost:8080/swagger-ui.html
 	* http://localhost:8080/v2/api-docs
 
+|Methods	|Urls				|Actions               |
+|-----------|-------------------|----------------------|
+|GET		|/api/v1/users		|retrieve all users    |
+|POST		|/api/v1/users		|create new user       |
+|GET		|/api/v1/users/:id	|retrieve a user by :id|
+|PUT		|/api/v1/users/:id	|update a user by :id  |
+|DELETE		|/api/v1/users/:id	|delete a user by :id  |
